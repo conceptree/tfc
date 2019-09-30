@@ -1,0 +1,114 @@
+{
+  "gallery": {
+    
+    "items":{
+      
+      "length":10,
+      "categories":["Decorações","Balões","Massas","Bonecos","Cozinha","Efeitos","Tintas"],
+      "content":[
+        {
+          
+          "title":"Item Loja 1",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 2",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 3",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 4",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 5",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 6",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 7",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 8",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 9",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 10",
+          "date":"140000",
+          "imgUrl":"gallery/itemLoja.jpg",
+          "catergorie":"Decorações",
+          "description":"Descrição da fotografia em questão irá apararecer aqui"
+          
+          
+        }]
+        
+      }
+      
+    }
+    
+  }

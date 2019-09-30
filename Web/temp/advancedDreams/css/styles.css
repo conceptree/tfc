@@ -1,0 +1,150 @@
+@font-face{ 
+    font-family: 'existencelight';
+    src: url('fonts/Existence-Light-webfont.eot');
+    src: url('fonts/Existence-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Existence-Light-webfont.woff') format('woff'),
+         url('fonts/Existence-Light-webfont.ttf') format('truetype'),
+         url('fonts/Existence-Light-webfont.svg#existencelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-size:18px;
+}
+
+@font-face {
+    font-family: 'colaborate-thinregular';
+    src: url('fonts/ColabThi-webfont.eot');
+    src: url('fonts/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ColabThi-webfont.woff') format('woff'),
+         url('fonts/ColabThi-webfont.ttf') format('truetype'),
+         url('fonts/ColabThi-webfont.svg#colaborate-thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('fonts/Calligraffiti-webfont.eot');
+    src: url('fonts/Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Calligraffiti-webfont.woff') format('woff'),
+         url('fonts/Calligraffiti-webfont.ttf') format('truetype'),
+         url('fonts/Calligraffiti-webfont.svg#calligraffitiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body{
+	overflow-x:hidden;
+	overflow-y:hidden;	
+	font-size:20px;
+	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-webkit-overflow-scrolling:touch;
+	
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*{
+	font-family: 'existencelight';
+	padding:0px;
+	margin:0px;
+	clear:both;
+	text-decoration:none;
+	border:none;
+	outline:none;
+}
+
+.mainContainer, .overlayWindow{
+	position:fixed;
+	width:100%;
+	height:100%;
+	opacity:0;
+}
+
+.mainContainer{
+	background:url(../imgs/bg1.jpg) no-repeat;
+	background-position:center;
+	background-size:cover;		
+}
+
+.mainContainer:before, .overlayWindow:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: .8; 
+}
+
+.infoContainer{
+	position:absolute;
+	width:350px;
+	height:350px;
+	top:50%;
+	left:50%;
+	margin-left:-175px;
+	margin-top:-175px;
+}
+
+.infoContainer h1, .infoContainer p{
+	color:#fff;
+	text-align:center;	
+}
+
+.infoContainer h1{
+	font-size:2em;
+	font-weight:bold;
+}
+
+.infoContainer p{
+	font-size:1em;	
+}
+
+.infoButton, .submitButton{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	padding:10px;
+	width:150px;
+	height:auto;
+	text-align:center;
+	font-size:1em;
+	color:#000;
+	border-radius:10px;
+	background:rgba(254,254,254,.7);
+	cursor:pointer;
+}
+
+.moreInfo{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:350px;
+	height:350px;
+	margin-left:-175px;
+	margin-top:-175px;	
+}
+
+.moreInfo ul li{
+	display:block;
+	padding:10px;
+	font-size:1em;
+	text-align:center;
+}
+
+.moreInfo ul li:nth-child(1){
+	color:#fff;	
+}
+
+.moreInfo ul li input{
+	font-size:1em;
+	color:#000;
+	padding:10px;
+	border-radius:10px;	
+}

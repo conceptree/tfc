@@ -1,0 +1,133 @@
+{
+  "item1": {
+    "item": "Bolo",
+    "step2": [
+      "Pão de ló",
+      "Baunilha",
+      "Iogurte",
+      "Chocolate",
+      "Cenoura",
+      "Laranja",
+      "Limão",
+      "Noz",
+      "Red Velvet"
+    ],
+    "step3": [
+      "Doce de ovos c/ ou s/ amêndoas",
+      "Ganache de Chocolate negro",
+      "Brigadeiro",
+      "Doce de leite",
+      "Creme de Manteiga (buttercream)",
+      "Buttercream de Frutos Silvestres",
+      "Buttercream de chocolate",
+      "Moka ( café )",
+      "Curd de Frutos Silvestres",
+      "Lemon Curd",
+      "Cream Cheese"
+    ],
+    "steps": {
+      "step2": {
+        "type": "select",
+        "content": "Massas"
+      },
+      "step3": {
+        "type": "select",
+        "content": "Recheios"
+      },
+      "step4": {
+        "type": "number",
+        "content": "Número Pessoas"
+      },
+      "step5": {
+        "type": "date",
+        "content": "Data"
+      },
+      "step6": {
+        "type": "button",
+        "content": "Adicionar"
+      }
+    }
+  },
+  "item2": {
+    "item": "Cupcakes",
+    "step2": ["Cenoura", "Red Velvet", "Chocolate", "Baunilha"],
+    "step3": [
+      "Buttercream",
+      "Pasta de açucar"
+    ],
+    "step4": ["6 Unid.", "12 Unid.", "18 Unid.", "Outras quantidades..."],
+    "steps": {
+      "step2": {
+        "type": "select",
+        "content": "Massas"
+      },
+      "step3": {
+        "type": "select",
+        "content": "Topping"
+      },
+      "step4": {
+        "type": "select",
+        "content": "Unidades"
+      },
+      "step5": {
+        "type": "date",
+        "content": "Data"
+      },
+      "step6": {
+        "type": "button",
+        "content": "Adicionar"
+      }
+    }
+  },
+  "item3": {
+    "item": "Cakepops",
+    "step2": ["Iogurte", "chocolate", "Red Velvet", "Limão"],
+    "step3": ["6 Unid.", "12 Unid.", "18 Unid.", "Outras quantidades..."],
+    "steps": {
+      "step2": {
+        "type": "select",
+        "content": "Massas"
+      },
+      "step3": {
+        "type": "select",
+        "content": "Unidades"
+      },
+      "step4": {
+        "type": "date",
+        "content": "Data"
+      },
+      "step5": {
+        "type": "button",
+        "content": "Adicionar"
+      }
+    }
+  },
+  "item4": {
+    "item": "Bolachas",
+    "step2": ["Manteiga"],
+    "step3": ["Pasta de açucar", "Sem cobertura"],
+    "step4": ["6 Unid.", "12 Unid.", "18 Unid.", "Outras quantidades..."],
+    "steps": {
+      "step2": {
+        "type": "select",
+        "content": "Massas"
+      },
+      "step3": {
+        "type": "select",
+        "content": "Cobertura"
+      },
+      "step4": {
+        "type": "select",
+        "content": "Unidades"
+      },
+      "step5": {
+        "type": "date",
+        "content": "Data"
+      },
+      "step6": {
+        "type": "button",
+        "content": "Adicionar"
+      }
+    }
+  }
+}

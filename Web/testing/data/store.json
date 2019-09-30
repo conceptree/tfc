@@ -1,0 +1,104 @@
+{
+  "store": {
+    
+    "items":{
+      
+      "length":10,
+      "categories":["Decorações","Balões","Massas","Bonecos","Cozinha","Efeitos","Tintas"],
+      "content":[
+        {
+          
+          "title":"Item Loja 1",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 2",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 3",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 4",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 5",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 6",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 7",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 8",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 9",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        },
+        {
+          
+          "title":"Item Loja 10",
+          "price":"30",
+          "imgUrl":"images/itemLoja.jpg",
+          "catergorie":"Decorações"
+          
+          
+        }]
+        
+      }
+      
+    }
+    
+  }

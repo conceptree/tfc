@@ -1,0 +1,130 @@
+@font-face{ 
+    font-family: 'existencelight';
+    src: url('Existence-Light-webfont.eot');
+    src: url('Existence-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Existence-Light-webfont.woff') format('woff'),
+         url('Existence-Light-webfont.ttf') format('truetype'),
+         url('Existence-Light-webfont.svg#existencelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	font-size:18px;
+}
+
+@font-face {
+    font-family: 'colaborate-thinregular';
+    src: url('ColabThi-webfont.eot');
+    src: url('ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabThi-webfont.woff') format('woff'),
+         url('ColabThi-webfont.ttf') format('truetype'),
+         url('ColabThi-webfont.svg#colaborate-thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calligraffitiregular';
+    src: url('Calligraffiti-webfont.eot');
+    src: url('Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Calligraffiti-webfont.woff') format('woff'),
+         url('Calligraffiti-webfont.ttf') format('truetype'),
+         url('Calligraffiti-webfont.svg#calligraffitiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body,html{
+	padding:0px; 
+	margin:0px;
+	font-family: 'existencelight';
+	font-size:20px;
+	background:#000;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-y:auto; overflow-x:hidden;
+}
+
+.bg{
+	position:fixed;
+	padding:0px; margin:0px;
+	width:100%; height:100%;
+	background:url(../imgs/bg.jpg) no-repeat;
+	background-position:center; background-size:cover;
+	opacity:.5;
+}
+
+.info-container{
+	position:absolute;
+	padding:0px; margin:0px;
+	width:100%; height:auto;
+}
+
+.logo{
+	display:block;
+	padding:0px; margin:0px;
+	margin-left:auto; margin-right:auto;
+	margin-top:150px;
+	width:280px; height:280px;
+	background:url(../imgs/logo.png) no-repeat;
+	background-position:center; background-size:cover;
+}
+
+.info{
+	display:block;
+	padding:0px; margin:0px;
+	margin-left:auto; margin-right:auto;
+	min-width:350px; max-width:550px; height:auto;
+}
+
+.info h1{
+	font-size:2em; color:#fff;
+	text-align:center; font-weight:bold;
+	text-shadow: 1px 1px 1px #000;	
+}
+
+.info p{
+	font-size:.9em; color:#fff;
+	text-align:center; font-weight:bold;
+	text-shadow: 1px 1px 1px #000;	
+}
+
+.info p a{
+	color:rgba(68,210,171,1.00);	
+}
+
+.language{
+	display:block;
+	width:150px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	color:#fff;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.language a, .language a:active{
+	text-decoration:none;
+	color:#fff;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
